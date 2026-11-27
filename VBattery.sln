@@ -1,70 +1,70 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Core", "src\VBattery.Core\VBattery.Core.csproj", "{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.DeviceDetection", "src\VBattery.DeviceDetection\VBattery.DeviceDetection.csproj", "{AFEBAC66-B76B-5CB6-A961-0DED36459069}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Settings", "src\VBattery.Settings\VBattery.Settings.csproj", "{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Notifications", "src\VBattery.Notifications\VBattery.Notifications.csproj", "{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Bluetooth", "src\VBattery.Bluetooth\VBattery.Bluetooth.csproj", "{ABA73010-CAF7-544C-BA93-AC5D8C196057}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.HID", "src\VBattery.HID\VBattery.HID.csproj", "{A918B614-68C6-58E6-8839-9F7987D4BE5F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Tray", "src\VBattery.Tray\VBattery.Tray.csproj", "{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.App", "src\VBattery.App\VBattery.App.csproj", "{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Tests", "tests\VBattery.Tests\VBattery.Tests.csproj", "{70C5F395-3A68-5B2F-8C24-4D3207659197}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AFEBAC66-B76B-5CB6-A961-0DED36459069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFEBAC66-B76B-5CB6-A961-0DED36459069}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFEBAC66-B76B-5CB6-A961-0DED36459069}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFEBAC66-B76B-5CB6-A961-0DED36459069}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABA73010-CAF7-544C-BA93-AC5D8C196057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABA73010-CAF7-544C-BA93-AC5D8C196057}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABA73010-CAF7-544C-BA93-AC5D8C196057}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABA73010-CAF7-544C-BA93-AC5D8C196057}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A918B614-68C6-58E6-8839-9F7987D4BE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A918B614-68C6-58E6-8839-9F7987D4BE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A918B614-68C6-58E6-8839-9F7987D4BE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A918B614-68C6-58E6-8839-9F7987D4BE5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70C5F395-3A68-5B2F-8C24-4D3207659197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70C5F395-3A68-5B2F-8C24-4D3207659197}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70C5F395-3A68-5B2F-8C24-4D3207659197}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70C5F395-3A68-5B2F-8C24-4D3207659197}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Core", "src\VBattery.Core\VBattery.Core.csproj", "{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.DeviceDetection", "src\VBattery.DeviceDetection\VBattery.DeviceDetection.csproj", "{AFEBAC66-B76B-5CB6-A961-0DED36459069}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Settings", "src\VBattery.Settings\VBattery.Settings.csproj", "{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Notifications", "src\VBattery.Notifications\VBattery.Notifications.csproj", "{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Bluetooth", "src\VBattery.Bluetooth\VBattery.Bluetooth.csproj", "{ABA73010-CAF7-544C-BA93-AC5D8C196057}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.HID", "src\VBattery.HID\VBattery.HID.csproj", "{A918B614-68C6-58E6-8839-9F7987D4BE5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Tray", "src\VBattery.Tray\VBattery.Tray.csproj", "{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.App", "src\VBattery.App\VBattery.App.csproj", "{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VBattery.Tests", "tests\VBattery.Tests\VBattery.Tests.csproj", "{70C5F395-3A68-5B2F-8C24-4D3207659197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE30435-CE51-5B45-AE24-F60C38FCCB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEBAC66-B76B-5CB6-A961-0DED36459069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEBAC66-B76B-5CB6-A961-0DED36459069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEBAC66-B76B-5CB6-A961-0DED36459069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEBAC66-B76B-5CB6-A961-0DED36459069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE9CCED-D4AE-53B4-A709-F1A68A474CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DE7628-F03D-5FCC-B2FF-1C1B72B86862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA73010-CAF7-544C-BA93-AC5D8C196057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA73010-CAF7-544C-BA93-AC5D8C196057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA73010-CAF7-544C-BA93-AC5D8C196057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA73010-CAF7-544C-BA93-AC5D8C196057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A918B614-68C6-58E6-8839-9F7987D4BE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A918B614-68C6-58E6-8839-9F7987D4BE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A918B614-68C6-58E6-8839-9F7987D4BE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A918B614-68C6-58E6-8839-9F7987D4BE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846FEC7C-9A18-5FF5-83B4-F6E3600CAFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE05834E-E4EB-5AE4-A69C-8367413DA7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C5F395-3A68-5B2F-8C24-4D3207659197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C5F395-3A68-5B2F-8C24-4D3207659197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C5F395-3A68-5B2F-8C24-4D3207659197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C5F395-3A68-5B2F-8C24-4D3207659197}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
