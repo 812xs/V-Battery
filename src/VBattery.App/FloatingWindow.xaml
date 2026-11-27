@@ -10,7 +10,7 @@
         <Border.LayoutTransform>
             <ScaleTransform x:Name="Scale" ScaleX="1" ScaleY="1"/>
         </Border.LayoutTransform>
-        <StackPanel x:Name="Content">
+        <StackPanel x:Name="ContentPanel">
             <StackPanel.Effect>
                 <DropShadowEffect BlurRadius="6" ShadowDepth="0" Opacity="0.9" Color="Black"/>
             </StackPanel.Effect>
