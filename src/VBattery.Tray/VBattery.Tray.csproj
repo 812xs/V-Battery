@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VBattery.Core\VBattery.Core.csproj" />
+    <ProjectReference Include="..\VBattery.DeviceDetection\VBattery.DeviceDetection.csproj" />
+    <ProjectReference Include="..\VBattery.Settings\VBattery.Settings.csproj" />
+    <ProjectReference Include="..\VBattery.Notifications\VBattery.Notifications.csproj" />
+  </ItemGroup>
+</Project>

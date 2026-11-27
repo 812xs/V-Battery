@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>V-Battery</AssemblyName>
+    <RootNamespace>VBattery.App</RootNamespace>
+    <ApplicationIcon>Assets\vbattery.ico</ApplicationIcon>
+    <Description>V-Battery - Windows pil izleyici</Description>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets\vbattery.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VBattery.Core\VBattery.Core.csproj" />
+    <ProjectReference Include="..\VBattery.DeviceDetection\VBattery.DeviceDetection.csproj" />
+    <ProjectReference Include="..\VBattery.Bluetooth\VBattery.Bluetooth.csproj" />
+    <ProjectReference Include="..\VBattery.HID\VBattery.HID.csproj" />
+    <ProjectReference Include="..\VBattery.Tray\VBattery.Tray.csproj" />
+    <ProjectReference Include="..\VBattery.Notifications\VBattery.Notifications.csproj" />
+    <ProjectReference Include="..\VBattery.Settings\VBattery.Settings.csproj" />
+  </ItemGroup>
+</Project>
