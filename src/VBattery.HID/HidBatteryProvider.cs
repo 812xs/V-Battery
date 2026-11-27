@@ -39,7 +39,7 @@ public sealed class HidBatteryProvider : IDeviceProvider
 
     public Task StartAsync()
     {
-        _timer = new Timer(_ => _ = ScanAsync(), null, TimeSpan.Zero, _interval);
+        _timer = new Timer(state => _ = ScanAsync(), null, TimeSpan.Zero, _interval);
         return Task.CompletedTask;
     }
 

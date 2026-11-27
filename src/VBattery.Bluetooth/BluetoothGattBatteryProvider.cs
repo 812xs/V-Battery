@@ -62,8 +62,8 @@ public sealed class BluetoothGattBatteryProvider : IDeviceProvider
     {
         var selector = BluetoothLEDevice.GetDeviceSelectorFromPairingState(true);
         _watcher = DeviceInformation.CreateWatcher(selector);
-        _watcher.Added += (_, info) => _ = TrackAsync(info.Id);
-        _watcher.Removed += (_, update) => Untrack(update.Id);
+        _watcher.Added += (sender, info) => _ = TrackAsync(info.Id);
+        _watcher.Removed += (sender, update) => Untrack(update.Id);
         _watcher.Start();
         DiagnosticLog.Write(Name, "Eşleşmiş Bluetooth LE cihaz izleyicisi başlatıldı.");
         return Task.CompletedTask;
